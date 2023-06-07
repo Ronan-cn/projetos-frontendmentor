@@ -8,3 +8,4 @@ Projetos criados do Frontend Mentor
 - [NFT preview card](https://ronan-cn.github.io/projetos-frontendmentor/nft-preview-card/index.html)
 - [Order summary component](https://ronan-cn.github.io/projetos-frontendmentor/order-summary/index.html)
 - [Stats preview card component](https://ronan-cn.github.io/projetos-frontendmentor/stats-preview-card/index.html)
+- [3 column preview card component](https://ronan-cn.github.io/projetos-frontendmentor/3-column-preview-card/index.html)
