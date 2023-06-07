@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(225, 100%, 94%) url("../images/pattern-background-desktop.svg") top center no-repeat;
+  background-size: contain;
+}
+
+main {
+  background-color: white;
+  max-width: 450px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.082);
+}
+
+.img > img {
+  background-size: cover;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.info-container {
+  padding: 0 45px;
+}
+
+.info-container > h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.8em;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.info-container > p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.product-container {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: px;
+}
+
+.plan-container > .plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 800;
+}
+
+.plan-container > .price {
+  color: hsl(224, 23%, 55%);
+}
+
+.product-container > .change-button {
+  color: hsl(245, 75%, 52%);
+  font-size: 0.9em;
+  padding: 10px 0 10px 10px;
+  font-weight: 700;
+}
+
+.product-container > .change-button:hover {
+  color: hsl(245, 75%, 72%);
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.buttons > .payment-button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 12px 20px 0px hsla(245, 75%, 52%, 0.308);
+}
+
+.buttons > .payment-button:hover {
+  background-color: hsl(245, 75%, 72%);
+}
+
+.buttons > .cancel-button {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.buttons > .cancel-button:hover {
+  color: hsl(224, 23%, 25%);
+}
+
+@media screen and (max-width: 440px) {
+  body {
+    background: hsl(225, 100%, 94%) url("../images/pattern-background-mobile.svg") top center no-repeat;
+    background-size: contain;
+  }
+
+  .info-container {
+    padding: 0 25px;
+  }
+
+  .info-container > h1 {
+    font-size: 1.6em;
+  }
+
+  .product-container {
+    padding: 15px;
+  }
+
+  .plan-container {
+    font-size: 0.9em;
+  }
+}
