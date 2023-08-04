@@ -10,3 +10,4 @@ Projetos criados do Frontend Mentor
 - [Stats preview card component](https://ronan-cn.github.io/projetos-frontendmentor/stats-preview-card/index.html)
 - [3 column preview card component](https://ronan-cn.github.io/projetos-frontendmentor/3-column-preview-card/index.html)
 - [Profile card component](https://ronan-cn.github.io/projetos-frontendmentor/profile-card/index.html)
+- [Interactive rating component](https://ronan-cn.github.io/projetos-frontendmentor/interactive-rating-component/index.html)
