@@ -60,7 +60,7 @@ h1 > span {
   margin-left: 5px;
 }
 
-.info > h3 {
+.info > h2 {
   text-align: center;
   color: var(--Dark-grayish-blue);
   font-size: 0.9rem;
