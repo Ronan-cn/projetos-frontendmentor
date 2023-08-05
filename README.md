@@ -11,3 +11,4 @@ Projetos criados do Frontend Mentor
 - [3 column preview card component](https://ronan-cn.github.io/projetos-frontendmentor/3-column-preview-card/index.html)
 - [Profile card component](https://ronan-cn.github.io/projetos-frontendmentor/profile-card/index.html)
 - [Interactive rating component](https://ronan-cn.github.io/projetos-frontendmentor/interactive-rating-component/index.html)
+- [Single price grid component](https://ronan-cn.github.io/projetos-frontendmentor/single-price-grid-component/index.html)
