@@ -12,3 +12,4 @@ Projetos criados do Frontend Mentor
 - [Profile card component](https://ronan-cn.github.io/projetos-frontendmentor/profile-card/index.html)
 - [Interactive rating component](https://ronan-cn.github.io/projetos-frontendmentor/interactive-rating-component/index.html)
 - [Single price grid component](https://ronan-cn.github.io/projetos-frontendmentor/single-price-grid-component/index.html)
+- [Social proof section master](https://ronan-cn.github.io/projetos-frontendmentor/social-proof-section-master/index.html)
